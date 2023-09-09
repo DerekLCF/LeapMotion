@@ -15,7 +15,7 @@ C:/Users/HOME/LeapMotion
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-47086
+52781
 Successfully changed project path to: C:/Users/HOME/LeapMotion
 C:/Users/HOME/LeapMotion
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ C:/Users/HOME/LeapMotion
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [33132] Host "[IP] 192.168.128.98 [Port] 0 [Flags] 2 [Guid] 3003775282 [EditorId] 3003775282 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6QOHEUB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [45872] Host "[IP] 192.168.128.98 [Port] 0 [Flags] 2 [Guid] 1996995003 [EditorId] 1996995003 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6QOHEUB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [33132] Host "[IP] 192.168.128.98 [Port] 0 [Flags] 2 [Guid] 3003775282 [EditorId] 3003775282 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6QOHEUB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [45872] Host "[IP] 192.168.128.98 [Port] 0 [Flags] 2 [Guid] 1996995003 [EditorId] 1996995003 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-6QOHEUB) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 86.21 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 73.75 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
@@ -67,54 +67,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56892
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.009678 seconds.
+Registered in 0.009798 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 269 ms
+Android Extension - Scanning For ADB Devices 243 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 77.58 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 73.46 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.065 seconds
+- Completed reload, in  0.952 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1067ms)
-		BeginReloadAssembly (98ms)
+	ReloadAssembly (952ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (855ms)
-			LoadAssemblies (97ms)
+		EndReloadAssembly (760ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
+			SetupTypeCache (110ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (635ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (568ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (383ms)
+				InitializePlatformSupportModulesInManaged (348ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (78ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (116ms)
-				ProcessInitializeOnLoadMethodAttributes (56ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (95ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007962 seconds.
+Registered in 0.005974 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\HOME\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\HOME\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -122,47 +122,47 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.77 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.71 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 Mono: successfully reloaded assembly
-- Completed reload, in  1.314 seconds
+- Completed reload, in  1.088 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1315ms)
-		BeginReloadAssembly (143ms)
+	ReloadAssembly (1089ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (21ms)
-		EndReloadAssembly (1042ms)
-			LoadAssemblies (181ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (862ms)
+			LoadAssemblies (90ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (315ms)
+			SetupTypeCache (273ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (437ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (396ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (41ms)
+				InitializePlatformSupportModulesInManaged (35ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (104ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (234ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.66 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3636 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (312.2 KB). Loaded Objects now: 4099.
 Memory consumption went from 133.9 MB to 133.6 MB.
-Total: 3.271400 ms (FindLiveObjects: 0.444900 ms CreateObjectMapping: 0.121700 ms MarkObjects: 2.598200 ms  DeleteObjects: 0.105300 ms)
+Total: 3.104900 ms (FindLiveObjects: 0.406200 ms CreateObjectMapping: 0.115600 ms MarkObjects: 2.477000 ms  DeleteObjects: 0.105000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,7 +177,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007680 seconds.
+Registered in 0.005557 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\HOME\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\HOME\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -185,43 +185,43 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.76 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 0.55 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.161 seconds
+- Completed reload, in  1.053 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1162ms)
-		BeginReloadAssembly (177ms)
+	ReloadAssembly (1054ms)
+		BeginReloadAssembly (156ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (866ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (296ms)
+			SetupTypeCache (284ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (366ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (321ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (39ms)
+				InitializePlatformSupportModulesInManaged (35ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (216ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				BeforeProcessingInitializeOnLoad (68ms)
+				ProcessInitializeOnLoadAttributes (189ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (9ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.63 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 2.64 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3606 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 22 unused Assets / (51.0 KB). Loaded Objects now: 4103.
+Unloading 22 unused Assets / (50.9 KB). Loaded Objects now: 4103.
 Memory consumption went from 131.0 MB to 130.9 MB.
-Total: 2.812900 ms (FindLiveObjects: 0.372600 ms CreateObjectMapping: 0.110000 ms MarkObjects: 2.256900 ms  DeleteObjects: 0.072000 ms)
+Total: 2.769600 ms (FindLiveObjects: 0.357800 ms CreateObjectMapping: 0.088200 ms MarkObjects: 2.251000 ms  DeleteObjects: 0.071400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -235,7 +235,19 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 487379.302756 seconds.
-  path: Assets/testgit.cs
-  artifactKey: Guid(cf9502f3df7b4014d8f3db235c005da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/testgit.cs using Guid(cf9502f3df7b4014d8f3db235c005da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfe94c3506267d67ea288ddbeb23235') in 0.029116 seconds 
+  Time since last request: 490768.538153 seconds.
+  path: Assets/Anchor to Objects Test 2.unity
+  artifactKey: Guid(e2c48807a89c07544aa0ad915412da62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Anchor to Objects Test 2.unity using Guid(e2c48807a89c07544aa0ad915412da62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c7421165bc93ff9233b95f7c9a52705') in 0.012870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.961173 seconds.
+  path: Assets/Bounce.physicMaterial
+  artifactKey: Guid(4a09f03ab18583245890c9a10a555c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bounce.physicMaterial using Guid(4a09f03ab18583245890c9a10a555c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b8e751d401c9f6e63c2713ccb60484') in 0.036845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.666514 seconds.
+  path: Assets/Test
+  artifactKey: Guid(a0a6d201e2207f14e942d08d5f88e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test using Guid(a0a6d201e2207f14e942d08d5f88e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8333baa466a5a6e615d324bb705803d') in 0.005830 seconds 
