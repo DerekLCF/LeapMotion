@@ -39,12 +39,27 @@ public class GameController : MonoBehaviour
 
     public void Green()
     {
+        Debug.Log("Touch Green");
         count += 1;
         _GameState = (GameState)count;
     }
 
     public void Red()
     {
-
+        Debug.Log("Touch Red");
     }
+
+    public void Up()
+    {
+        Debug.Log("Touch Up");
+    }
+    public void Down()
+    {
+        Debug.Log("Touch Down");
+    }
+    public void Enter()
+    {
+        Debug.Log("Touch Enter");
+    }
+
 }

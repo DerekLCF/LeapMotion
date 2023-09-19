@@ -359,7 +359,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 502728331786049495, guid: aafa7d030b4eb1b4e800dc85a623cb75, type: 3}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: Enter
       objectReference: {fileID: 0}
     - target: {fileID: 502728331786049495, guid: aafa7d030b4eb1b4e800dc85a623cb75, type: 3}
       propertyPath: _OnUnpress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -2142,7 +2142,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 502728331786049495, guid: aafa7d030b4eb1b4e800dc85a623cb75, type: 3}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: Up
       objectReference: {fileID: 0}
     - target: {fileID: 502728331786049495, guid: aafa7d030b4eb1b4e800dc85a623cb75, type: 3}
       propertyPath: _OnUnpress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -2238,6 +2238,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1617485335}
     m_Modifications:
+    - target: {fileID: 502728331786049495, guid: aafa7d030b4eb1b4e800dc85a623cb75, type: 3}
+      propertyPath: _OnUnpress.m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 502728331786049495, guid: aafa7d030b4eb1b4e800dc85a623cb75, type: 3}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -3387,7 +3391,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 502728331786049495, guid: aafa7d030b4eb1b4e800dc85a623cb75, type: 3}
       propertyPath: _OnPress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: 
+      value: Down
       objectReference: {fileID: 0}
     - target: {fileID: 502728331786049495, guid: aafa7d030b4eb1b4e800dc85a623cb75, type: 3}
       propertyPath: _OnUnpress.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
