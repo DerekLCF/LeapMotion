@@ -4,6 +4,12 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Test/Start.unity
+    guid: bf5df7a7467177d46a3e48d3f71d83c3
+  - enabled: 1
+    path: Assets/Test/Game.unity
+    guid: 419e4be3dd089c74ca4887bb59cd6c3c
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 565d0afbe48ba314a969e0389925952c, type: 2}
