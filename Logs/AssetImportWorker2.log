@@ -1,0 +1,649 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.26f1 (a16dc32e0ff2) revision 10579395'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'zh' Physical Memory: 8052 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/derek/OneDrive/桌面/LeapMotion
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+63897
+Successfully changed project path to: C:/Users/derek/OneDrive/桌面/LeapMotion
+C:/Users/derek/OneDrive/桌面/LeapMotion
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25960] Host "[IP] 192.168.0.186 [Port] 0 [Flags] 2 [Guid] 1637503993 [EditorId] 1637503993 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TA9O0T2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25960] Host "[IP] 192.168.0.186 [Port] 0 [Flags] 2 [Guid] 1637503993 [EditorId] 1637503993 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-TA9O0T2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 73.05 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.26f1 (a16dc32e0ff2)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/derek/OneDrive/桌面/LeapMotion/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 (ID=0x2504)
+    Vendor:   NVIDIA
+    VRAM:     12129 MB
+    Driver:   31.0.15.3623
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56868
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005640 seconds.
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 265 ms
+Refreshing native plugins compatible for Editor in 76.01 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1038ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (858ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (133ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (608ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (389ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (98ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.005086 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\derek\OneDrive\桌面\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\derek\OneDrive\桌面\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+Mono: successfully reloaded assembly
+- Completed reload, in  5.977 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5978ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (5659ms)
+			LoadAssemblies (4130ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (968ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (465ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (291ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3637 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (312.0 KB). Loaded Objects now: 4099.
+Memory consumption went from 133.7 MB to 133.4 MB.
+Total: 4.259400 ms (FindLiveObjects: 0.470200 ms CreateObjectMapping: 0.201800 ms MarkObjects: 3.415800 ms  DeleteObjects: 0.169800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1805294.912483 seconds.
+  path: Assets/Test
+  artifactKey: Guid(a0a6d201e2207f14e942d08d5f88e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test using Guid(a0a6d201e2207f14e942d08d5f88e1ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a98db8fb4ac71e4cc83b1b3aabb7081d') in 0.020338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Test/Game.unity
+  artifactKey: Guid(419e4be3dd089c74ca4887bb59cd6c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Game.unity using Guid(419e4be3dd089c74ca4887bb59cd6c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753b372d3e7ce34700260b8a7a279b9c') in 0.009087 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005857 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\derek\OneDrive\桌面\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\derek\OneDrive\桌面\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.761 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1763ms)
+		BeginReloadAssembly (646ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (26ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (360ms)
+		EndReloadAssembly (1003ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.10 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3608 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (50.7 KB). Loaded Objects now: 4104.
+Memory consumption went from 130.9 MB to 130.8 MB.
+Total: 10.628100 ms (FindLiveObjects: 0.435000 ms CreateObjectMapping: 0.144600 ms MarkObjects: 9.813500 ms  DeleteObjects: 0.233200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1957.761847 seconds.
+  path: Assets/Starfield Skybox/Demo
+  artifactKey: Guid(7a4470ba344bcbb44bb67e3c01170b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo using Guid(7a4470ba344bcbb44bb67e3c01170b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd762a22e0d096e5bb862add9d139ca') in 0.019776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.529447 seconds.
+  path: Assets/Starfield Skybox/Demo/Textures
+  artifactKey: Guid(a1ac2873c4eb8d64db33d7df8acb9188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo/Textures using Guid(a1ac2873c4eb8d64db33d7df8acb9188) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ea4f0a519192fa9db330b05f2534e8') in 0.028541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.579125 seconds.
+  path: Assets/Starfield Skybox/Demo/DemoScene.unity
+  artifactKey: Guid(47cd513b8c4397e4ca272a1ff269d933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Starfield Skybox/Demo/DemoScene.unity using Guid(47cd513b8c4397e4ca272a1ff269d933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c3f14816775f4635d08c86609c3008') in 0.008630 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004392 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\derek\OneDrive\桌面\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\derek\OneDrive\桌面\LeapMotion\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.50 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.982 seconds
+Domain Reload Profiling:
+	ReloadAssembly (983ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (730ms)
+			LoadAssemblies (112ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (291ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (31ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.07 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3607 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (50.7 KB). Loaded Objects now: 4107.
+Memory consumption went from 132.8 MB to 132.7 MB.
+Total: 2.377700 ms (FindLiveObjects: 0.297900 ms CreateObjectMapping: 0.123000 ms MarkObjects: 1.891700 ms  DeleteObjects: 0.064000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 105.549470 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR
+  artifactKey: Guid(a86f34ad69705b14ba97089363b804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR using Guid(a86f34ad69705b14ba97089363b804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9789aab2fa5f3b52c59ba09e06814666') in 0.023019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.935644 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo
+  artifactKey: Guid(3a34931f2d4c8f24e986b49e8cdccc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo using Guid(3a34931f2d4c8f24e986b49e8cdccc11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a14f6e03ff41920be9ffd1dd8a835123') in 0.013477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.148455 seconds.
+  path: Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene.unity
+  artifactKey: Guid(f9163f1f93df1b543838b03f441acb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Bed Room Furniture PBR/Demo/Demo Scene.unity using Guid(f9163f1f93df1b543838b03f441acb9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05d63e0341efde17342e59473bf8305') in 0.012677 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.682732 seconds.
+  path: Assets/MinimalistBedroom/Scenes
+  artifactKey: Guid(ee34dea8d6442054e89646e2399aa1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes using Guid(ee34dea8d6442054e89646e2399aa1f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95b42e9b6d22c1d8e5683436e2ccc031') in 0.008630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.870631 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian.unity
+  artifactKey: Guid(42fa4072cf98a9b4aaa9b41fad4307c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian.unity using Guid(42fa4072cf98a9b4aaa9b41fad4307c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a409d820758806a604abaaae3689efd') in 0.011359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.907982 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian_Profiles
+  artifactKey: Guid(1d518a7ec77b29442a22897b2d4f9d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian_Profiles using Guid(1d518a7ec77b29442a22897b2d4f9d31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699466e4e26f087d36bb9c90d91fe3a2') in 0.008601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.671965 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian
+  artifactKey: Guid(7ea03e0f04d5b5742a824b4007fabc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian using Guid(7ea03e0f04d5b5742a824b4007fabc1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02dbb3740044f0a793d347f938457a8e') in 0.007094 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5682.526670 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/ReflectionProbe-1.exr
+  artifactKey: Guid(ea9a356e9d1817548bfb08e03f7cdd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/ReflectionProbe-1.exr using Guid(ea9a356e9d1817548bfb08e03f7cdd30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '695b915f9fecdfc619d04ca993ac54cc') in 0.723629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.658188 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-0_comp_dir.png
+  artifactKey: Guid(c5367b1fa87f2d54484b5f58e08bb25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-0_comp_dir.png using Guid(c5367b1fa87f2d54484b5f58e08bb25b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f84881425576259409705b0bff90c2') in 0.076532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.353189 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-2_comp_dir.png
+  artifactKey: Guid(1aa3fc0d39906c04786a61cab5eccb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-2_comp_dir.png using Guid(1aa3fc0d39906c04786a61cab5eccb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03100b922072edd2ff221758647ac9a2') in 0.014537 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.750026 seconds.
+  path: Assets/MinimalistBedroom/Textures
+  artifactKey: Guid(0ec0c4d3d1067fc4786bff461461f53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Textures using Guid(0ec0c4d3d1067fc4786bff461461f53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0366a7a1725e36580f514afb3ca241a9') in 0.003921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.614086 seconds.
+  path: Assets/MinimalistBedroom/Prefabs
+  artifactKey: Guid(6ba1ebf203e8c9b41820b0d32a949364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Prefabs using Guid(6ba1ebf203e8c9b41820b0d32a949364) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e8e4f82a862da5e723e2c428da8434') in 0.008950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.984547 seconds.
+  path: Assets/MinimalistBedroom/Materials
+  artifactKey: Guid(391bc144a1a682c499f128ce09a4f519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials using Guid(391bc144a1a682c499f128ce09a4f519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45456713d45069b2d7f1c3eeccfaf63') in 0.007811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.739779 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric
+  artifactKey: Guid(c1b91e3879e7b1b41984166262b286ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric using Guid(c1b91e3879e7b1b41984166262b286ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219f196a7b5610fb8a7329881f61ceae') in 0.007506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.575541 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/FabricClothes_1k
+  artifactKey: Guid(93fc385c9b0af804c911670df740e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/FabricClothes_1k using Guid(93fc385c9b0af804c911670df740e5a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296b125f8b33946e514be548f420b3c7') in 0.007643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.103654 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/FabricClothes_1k/FabricClothes_1k_01.mat
+  artifactKey: Guid(967a9188d3185db4dacf75304337633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/FabricClothes_1k/FabricClothes_1k_01.mat using Guid(967a9188d3185db4dacf75304337633e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce9facdd3f536114e8780ee2f4323ee8') in 0.105177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.616469 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/FabrickClothes_1k
+  artifactKey: Guid(18cb79b59606d1142a4b7bd9b6e5f8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/FabrickClothes_1k using Guid(18cb79b59606d1142a4b7bd9b6e5f8c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c0932700be247b8bb7f9a5067d2bf5') in 0.007466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.977976 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/FabrickClothes_1k/FabricClothes_1k_01.mat
+  artifactKey: Guid(f3df0313e1e25444c9a0ed812d6ccef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/FabrickClothes_1k/FabricClothes_1k_01.mat using Guid(f3df0313e1e25444c9a0ed812d6ccef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdf9572155249638630a0746038cd94') in 0.041434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.388088 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/FabricWrinkled_2k
+  artifactKey: Guid(302f001abb80997498adb138eadf08ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/FabricWrinkled_2k using Guid(302f001abb80997498adb138eadf08ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6be32f29a6f583b826c6b989df2ff672') in 0.006973 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046283 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/FabricWrinkled_2k/FabricWrinkled_2k_01.mat
+  artifactKey: Guid(57f03e17fc9e2eb4291ca59aeaa50a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/FabricWrinkled_2k/FabricWrinkled_2k_01.mat using Guid(57f03e17fc9e2eb4291ca59aeaa50a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c15bab0fa2fcbb6810a518aa071832') in 0.043323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.490772 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/Rug_1k
+  artifactKey: Guid(51024edef602be5459019d9d993a0a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/Rug_1k using Guid(51024edef602be5459019d9d993a0a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efeb86691e86cf14d7ba025ae29e54f') in 0.014084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.800347 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/Rug_1k/Rug_1k_01.mat
+  artifactKey: Guid(95bec7fb02595b34189f1413397c30b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/Rug_1k/Rug_1k_01.mat using Guid(95bec7fb02595b34189f1413397c30b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8247c1f86004c0b8d599c5ccdc0d15') in 0.055187 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.061870 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/Suede_1k
+  artifactKey: Guid(113bc007c901c6b44a3555c112639983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/Suede_1k using Guid(113bc007c901c6b44a3555c112639983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd33b2e956444684152d106f602a390d5') in 0.009843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.456986 seconds.
+  path: Assets/MinimalistBedroom/Materials/Fabric/Suede_1k/Suede_1k_01.mat
+  artifactKey: Guid(df0920b28d89b044bb40e3933922a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Fabric/Suede_1k/Suede_1k_01.mat using Guid(df0920b28d89b044bb40e3933922a616) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2abab1b3818f55c06900114e3eab7ed') in 0.059772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.417763 seconds.
+  path: Assets/MinimalistBedroom/Materials/Metals
+  artifactKey: Guid(636802be57d391b45853974a51c30587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Metals using Guid(636802be57d391b45853974a51c30587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2a8004a38b9e0b5afd05481f21d7f9e') in 0.011644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050077 seconds.
+  path: Assets/MinimalistBedroom/Materials/Metals/StanlessSteelClean_01.mat
+  artifactKey: Guid(562c7b5eda7baf140864f6b826cc02ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Metals/StanlessSteelClean_01.mat using Guid(562c7b5eda7baf140864f6b826cc02ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1cbf42e1fc2bd980a198b36fb7c440') in 0.023713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.776856 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc
+  artifactKey: Guid(a0afdf4e8268b834dbc5eb4bb3251f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc using Guid(a0afdf4e8268b834dbc5eb4bb3251f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2092f4a90e7f296e97a21347b88b4e07') in 0.010487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.092969 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/GlassDark_01.mat
+  artifactKey: Guid(2ca8c1f089c06d146b7ae324e4dbeb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/GlassDark_01.mat using Guid(2ca8c1f089c06d146b7ae324e4dbeb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b73aa04cdb6d6fa4b024d443047c6a') in 0.034207 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/GlassFaded_02.mat
+  artifactKey: Guid(f16b29304c8a02d438afcb81820eee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/GlassFaded_02.mat using Guid(f16b29304c8a02d438afcb81820eee53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4722e70cdd67c7cea5b066d8655099') in 0.039298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/LightEmission_01.mat
+  artifactKey: Guid(34a3284d97af36e4e8ab933cd6dded51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/LightEmission_01.mat using Guid(34a3284d97af36e4e8ab933cd6dded51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c5055c7d2228873cd1d66e33e4ac8b') in 0.041764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.821138 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/CandleWaxDripping_512
+  artifactKey: Guid(4ad9895f5b91d7b4db81b9271da5d91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/CandleWaxDripping_512 using Guid(4ad9895f5b91d7b4db81b9271da5d91c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1fc5d66805e6c050eb763aef6bbd12') in 0.010275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.030839 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/CandleWaxDripping_512/CandleWaxDripping_512_01.mat
+  artifactKey: Guid(2c61e7db7dca7774d8e150a76ef23427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/CandleWaxDripping_512/CandleWaxDripping_512_01.mat using Guid(2c61e7db7dca7774d8e150a76ef23427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebb63dc471a254c964d85e9274da17f0') in 0.055928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.068003 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/DirtyWindow_2k_01
+  artifactKey: Guid(9dd00d15cae726145b2c3f9c8a404813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/DirtyWindow_2k_01 using Guid(9dd00d15cae726145b2c3f9c8a404813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b1be20f84d58c2ff9a32c12ce4593e4') in 0.010746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056216 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/DirtyWindow_2k_01/DirtyWindow_01.mat
+  artifactKey: Guid(83fed050d17dbde42b6cbd5871197c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/DirtyWindow_2k_01/DirtyWindow_01.mat using Guid(83fed050d17dbde42b6cbd5871197c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48500af34059c644e9931a37ade946f5') in 0.049503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.321575 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/PaintingAbstract_1k
+  artifactKey: Guid(fbeec59492ce7fb44872c527c91b8e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/PaintingAbstract_1k using Guid(fbeec59492ce7fb44872c527c91b8e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '028d5fca79ef81b405cfd6807e7af0ed') in 0.016483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.056739 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/PaintingAbstract_1k/PaintingAbstract_1k_01.mat
+  artifactKey: Guid(4533ba39772a9d14296dc3ed8b9bf822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/PaintingAbstract_1k/PaintingAbstract_1k_01.mat using Guid(4533ba39772a9d14296dc3ed8b9bf822) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac1a31b8da1b37cf70f72c71e4f8fc5f') in 0.052560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.832665 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/Plaster_1k
+  artifactKey: Guid(4bda04462c144eb4ca4a393a28908945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/Plaster_1k using Guid(4bda04462c144eb4ca4a393a28908945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd9b06339225d49264939c73104fd5c5') in 0.017794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.037669 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/Plaster_1k/Plaster_1k_01.mat
+  artifactKey: Guid(c8dd8f85fff42dd4b931aa24f8b718b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/Plaster_1k/Plaster_1k_01.mat using Guid(c8dd8f85fff42dd4b931aa24f8b718b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6813b29ba392d4fd6e57cb6955e07b') in 0.038892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.259671 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/StandardTexture_1k
+  artifactKey: Guid(7930820c7177f804081b816a3eab8761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/StandardTexture_1k using Guid(7930820c7177f804081b816a3eab8761) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88814989817e6ccf48f787f14a08137c') in 0.015450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.040840 seconds.
+  path: Assets/MinimalistBedroom/Materials/Misc/StandardTexture_1k/StandardTexture_1k_01.mat
+  artifactKey: Guid(fc41dd87f8c91524698b364d6a891b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Misc/StandardTexture_1k/StandardTexture_1k_01.mat using Guid(fc41dd87f8c91524698b364d6a891b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243a0754207e9c7425973357caa1b91a') in 0.029920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.113006 seconds.
+  path: Assets/MinimalistBedroom/Materials/Nature
+  artifactKey: Guid(ec34900ef86920d43bbc734889bef529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Nature using Guid(ec34900ef86920d43bbc734889bef529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff379d34bb34ba339ead114e154ca1d2') in 0.007195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.651824 seconds.
+  path: Assets/MinimalistBedroom/Materials/Nature/Bark_1k
+  artifactKey: Guid(2eb6981211a7f92478bd75fcc323a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Nature/Bark_1k using Guid(2eb6981211a7f92478bd75fcc323a5a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '263e9624f458650b28de033207f81e3f') in 0.009295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.058128 seconds.
+  path: Assets/MinimalistBedroom/Materials/Nature/Bark_1k/Bark_1k_01.mat
+  artifactKey: Guid(0efa79a9b397eda42ad825a97f06b8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Nature/Bark_1k/Bark_1k_01.mat using Guid(0efa79a9b397eda42ad825a97f06b8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ac803e77f6516a7c7daff2e9b102a5') in 0.056292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.723290 seconds.
+  path: Assets/MinimalistBedroom/Materials/Nature/Ground_1k
+  artifactKey: Guid(026e6bab56623964cbefa09ab66c570a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Nature/Ground_1k using Guid(026e6bab56623964cbefa09ab66c570a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33447c577311a32fcbd47802313cd2a1') in 0.010945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.065080 seconds.
+  path: Assets/MinimalistBedroom/Materials/Nature/Ground_1k/Ground_1k_01.mat
+  artifactKey: Guid(9b47b3fa9f8414d42b844c6811e27bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Nature/Ground_1k/Ground_1k_01.mat using Guid(9b47b3fa9f8414d42b844c6811e27bcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f555a6ba20dd8fac00e4a852f40314') in 0.059414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.970051 seconds.
+  path: Assets/MinimalistBedroom/Materials/Nature/LeafBase_512
+  artifactKey: Guid(6b3833bbb319f224981b9565098d0874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Nature/LeafBase_512 using Guid(6b3833bbb319f224981b9565098d0874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43cc0e387a0092c40034e36de89fb07') in 0.012528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.055041 seconds.
+  path: Assets/MinimalistBedroom/Materials/Nature/LeafBase_512/LeafBase_512_01.mat
+  artifactKey: Guid(3b89aaaaadd14764691e7727400cc83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Nature/LeafBase_512/LeafBase_512_01.mat using Guid(3b89aaaaadd14764691e7727400cc83b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4076fa2d6a2c5f03b5ba98f5d962c8f') in 0.051770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.202862 seconds.
+  path: Assets/MinimalistBedroom/Materials/Wood
+  artifactKey: Guid(0023557dae3227045b3102ed72d4ea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Wood using Guid(0023557dae3227045b3102ed72d4ea70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6fc433db102251f183b0582d5fe9096') in 0.009511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.656043 seconds.
+  path: Assets/MinimalistBedroom/Materials/Wood/Plywood_1k
+  artifactKey: Guid(6b75d8378fc94164a9610c6df547f71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Wood/Plywood_1k using Guid(6b75d8378fc94164a9610c6df547f71e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84442d9056e26a35fd5360c1851b4598') in 0.009726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.024537 seconds.
+  path: Assets/MinimalistBedroom/Materials/Wood/Plywood_1k/Plywood_1k_01.mat
+  artifactKey: Guid(1d9071227a1fd4549b9efffb122bbeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Wood/Plywood_1k/Plywood_1k_01.mat using Guid(1d9071227a1fd4549b9efffb122bbeb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a116789607fd7231bba1eb08351fe11') in 0.046414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.522216 seconds.
+  path: Assets/MinimalistBedroom/Materials/Wood/WoodFine_1k
+  artifactKey: Guid(3f2d8328db5f46047b98e2178c98115b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Wood/WoodFine_1k using Guid(3f2d8328db5f46047b98e2178c98115b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f47a7fe793db76825066eb5a4577865') in 0.010052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.054979 seconds.
+  path: Assets/MinimalistBedroom/Materials/Wood/WoodFine_1k/WoodFine_1k_01.mat
+  artifactKey: Guid(98d32ad184097e64b8c098b9cea5a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Wood/WoodFine_1k/WoodFine_1k_01.mat using Guid(98d32ad184097e64b8c098b9cea5a018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93e48bef46a60cd3e19ae711dc2460e8') in 0.054945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.130468 seconds.
+  path: Assets/MinimalistBedroom/Materials/Wood/WoodPlanks_1k
+  artifactKey: Guid(6b199cd8c19e096478cecdb815642658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Wood/WoodPlanks_1k using Guid(6b199cd8c19e096478cecdb815642658) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81f12f76c7e0c3b29159050d93b049a1') in 0.010243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038229 seconds.
+  path: Assets/MinimalistBedroom/Materials/Wood/WoodPlanks_1k/WoodPlanks_1k_01.mat
+  artifactKey: Guid(15ba4fc0d8013c54db0e73cc9fdf3906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Wood/WoodPlanks_1k/WoodPlanks_1k_01.mat using Guid(15ba4fc0d8013c54db0e73cc9fdf3906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0514b07f0410e00824367c969857e1f4') in 0.050535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.553669 seconds.
+  path: Assets/MinimalistBedroom/Materials/Wood/WoodPlanks_1k/WoodPlanks_1k_01.mat
+  artifactKey: Guid(15ba4fc0d8013c54db0e73cc9fdf3906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Materials/Wood/WoodPlanks_1k/WoodPlanks_1k_01.mat using Guid(15ba4fc0d8013c54db0e73cc9fdf3906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d2503e476dd0735beb72a375e01c14') in 0.492053 seconds 
