@@ -647,3 +647,117 @@ Received Import Request.
   path: Assets/MinimalistBedroom/Materials/Wood/WoodPlanks_1k/WoodPlanks_1k_01.mat
   artifactKey: Guid(15ba4fc0d8013c54db0e73cc9fdf3906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MinimalistBedroom/Materials/Wood/WoodPlanks_1k/WoodPlanks_1k_01.mat using Guid(15ba4fc0d8013c54db0e73cc9fdf3906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d2503e476dd0735beb72a375e01c14') in 0.492053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 325.079213 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian.unity
+  artifactKey: Guid(42fa4072cf98a9b4aaa9b41fad4307c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian.unity using Guid(42fa4072cf98a9b4aaa9b41fad4307c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '595c8e1d488c2dc78c16cf5890a7aaf9') in 0.007124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.700517 seconds.
+  path: Assets/TheMinmalist_Mian.unity
+  artifactKey: Guid(e336b5534902f644f968f4b4e386bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TheMinmalist_Mian.unity using Guid(e336b5534902f644f968f4b4e386bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69c860d4318d3f5995ecd7d9ba195032') in 0.002301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.864833 seconds.
+  path: Assets/Test/Anchor Objects.prefab
+  artifactKey: Guid(0c58a74809179a042826e63a40f6d4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Anchor Objects.prefab using Guid(0c58a74809179a042826e63a40f6d4b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030fb99f2964397f408dc839fa7ab1b4') in 0.309464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Test/Bounce.physicMaterial
+  artifactKey: Guid(4a09f03ab18583245890c9a10a555c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Bounce.physicMaterial using Guid(4a09f03ab18583245890c9a10a555c82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41e2d46f00ed9a45e5cafe89e867560b') in 0.020390 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Test/Cube UI Panel (1).prefab
+  artifactKey: Guid(dd4ef7442ab6a3c47bc1574f25866ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Cube UI Panel (1).prefab using Guid(dd4ef7442ab6a3c47bc1574f25866ebd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d069f21a67374f45b8199bf330d6d0') in 0.071808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.361662 seconds.
+  path: Assets/Test/Game.unity
+  artifactKey: Guid(419e4be3dd089c74ca4887bb59cd6c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Game.unity using Guid(419e4be3dd089c74ca4887bb59cd6c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608f7a2008560bbbae1446f13bf4d38a') in 0.014205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.488724 seconds.
+  path: Assets/Test/GameObject.prefab
+  artifactKey: Guid(663f5ec44c973964cb6ae6b0556d4b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/GameObject.prefab using Guid(663f5ec44c973964cb6ae6b0556d4b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3827f900981ccf507ff30a33e98f6e55') in 0.272700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1359.156702 seconds.
+  path: Assets/Test/TheMinmalist_Mian.unity
+  artifactKey: Guid(e336b5534902f644f968f4b4e386bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/TheMinmalist_Mian.unity using Guid(e336b5534902f644f968f4b4e386bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08714835a7813399281027e5ecbb3a2c') in 0.011859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.230607 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Global Volume Profile.asset
+  artifactKey: Guid(af05d1adc087a51418aae74900693b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Global Volume Profile.asset using Guid(af05d1adc087a51418aae74900693b68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059b8c7716389c0774772ffe445f2acd') in 0.029580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-2_comp_light.exr
+  artifactKey: Guid(f79b512daeab442458efbcb6c7de73d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-2_comp_light.exr using Guid(f79b512daeab442458efbcb6c7de73d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa0d2d8d7b4e5690d9cc16785ec9a83d') in 0.079531 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/PostProc Profile.asset
+  artifactKey: Guid(32145a69000408944be640e4b65aa581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/PostProc Profile.asset using Guid(32145a69000408944be640e4b65aa581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da1f865d94a892025f41bf6d48bcee2e') in 0.022183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-1_comp_light.exr
+  artifactKey: Guid(3a72373c174928341994dc3ba1aa77e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-1_comp_light.exr using Guid(3a72373c174928341994dc3ba1aa77e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f92704942d7c0eb7895f46b424bd2e3') in 0.033914 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-1_comp_dir.png
+  artifactKey: Guid(b9853a734525a8848b4376fe0a33ac1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-1_comp_dir.png using Guid(b9853a734525a8848b4376fe0a33ac1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdab5bda458f29f373d4dbb495982676') in 0.026401 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-0_comp_light.exr
+  artifactKey: Guid(e864778be072eb64f8468e1eff9f4d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian/Lightmap-0_comp_light.exr using Guid(e864778be072eb64f8468e1eff9f4d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5a08d733851ce6706952c143545532') in 0.028667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.171494 seconds.
+  path: Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian_Profiles/Main Camera Profile.asset
+  artifactKey: Guid(d41795d54aaa43d428bec755fa091a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MinimalistBedroom/Scenes/TheMinmalist_Mian_Profiles/Main Camera Profile.asset using Guid(d41795d54aaa43d428bec755fa091a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a120b4281e493deff1ce64a6dba97d8') in 0.016025 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.313825 seconds.
+  path: Assets/Test/TheMinmalist_Mian 1.unity
+  artifactKey: Guid(b255e2aa532149443a42c96626c5cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/TheMinmalist_Mian 1.unity using Guid(b255e2aa532149443a42c96626c5cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd688adf21f0f5921f9747de318ae304') in 0.008892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.192107 seconds.
+  path: Assets/Test/Start Scene.unity
+  artifactKey: Guid(b255e2aa532149443a42c96626c5cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Start Scene.unity using Guid(b255e2aa532149443a42c96626c5cf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0278fe52ca7c81d5dd3733fea7f4d132') in 0.007334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.538251 seconds.
+  path: Assets/Test/Game Scene.unity
+  artifactKey: Guid(e336b5534902f644f968f4b4e386bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Game Scene.unity using Guid(e336b5534902f644f968f4b4e386bf36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501e8f241862add5312748eb7a13e01c') in 0.011331 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2523.213002 seconds.
+  path: Assets/Test/Picking At Shirt.fbx
+  artifactKey: Guid(dc6cf1bb2c7c04c40b68dd4e3b3c20f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Picking At Shirt.fbx using Guid(dc6cf1bb2c7c04c40b68dd4e3b3c20f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85f7fe2deac33d5207e2e792aa807f7e') in 1.211178 seconds 

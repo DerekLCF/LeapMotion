@@ -353,3 +353,19 @@ Received Import Request.
   path: Assets/MinimalistBedroom/Materials/Wood/WoodFine_1k/WoodFine_1k_02.mat
   artifactKey: Guid(2919e09230e4c794c8df2bf5c4242a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/MinimalistBedroom/Materials/Wood/WoodFine_1k/WoodFine_1k_02.mat using Guid(2919e09230e4c794c8df2bf5c4242a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56224c023f4ee3c7872be445db4467e0') in 0.054396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 353.963772 seconds.
+  path: Assets/Test/Bolt and Nut.obj
+  artifactKey: Guid(540fb88858e9617458974ce2b304569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Bolt and Nut.obj using Guid(540fb88858e9617458974ce2b304569d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f36339e28db4be2fa72d6b384978d272') in 0.304467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Test/Cube UI Button (1).prefab
+  artifactKey: Guid(aafa7d030b4eb1b4e800dc85a623cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Test/Cube UI Button (1).prefab using Guid(aafa7d030b4eb1b4e800dc85a623cb75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1df385baa8f545870a99c91557fe417') in 0.080580 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
