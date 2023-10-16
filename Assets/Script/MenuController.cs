@@ -31,7 +31,7 @@ public class MenuController : MonoBehaviour
     }
     public void StartGame()
     {
-        SceneManager.LoadScene("Game");
+        SceneManager.LoadScene(1);
 
     }
     public void Tutorial()
