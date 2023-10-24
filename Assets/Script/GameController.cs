@@ -3,25 +3,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using System;
-
+using UnityEngine.SceneManagement;
 public class GameController : MonoBehaviour
 {
-
-    public enum GameState { S1, S2, S3,S4,S5,S6,S7,S8 }
+    //abcdefghijklmnopqrstuvwxyz,./1234567890_+:"
+    public enum GameState { S0,S1, S2, S3,S4,S5,S6,S7,S8,S9,S10,S11,S12 }
     [Header("----------------------Status----------------------")]
     public int count;
     GameState _GameState;
      bool  Placed=false;
     public GameObject Anchorable_Object_Magenta;
     public GameObject Slot;
-
-
+    public float BigWarning_BackMenuTime;
+    public float PlayTime;
+    public float PressCount;
+    public float PressCountWait;
+    public bool CanPress;
     [Header("----------------------UI----------------------")]
     public TextMeshProUGUI TestText;
+    public string[] Machine_String;
+
+
+    public GameObject GameHint_Gameobject;
+    public string[] GameHint_String;
+
+    public TextMeshProUGUI GameHint_Text;
+
+    public GameObject GameTimer_Gameobject;
+    public TextMeshProUGUI GameTimer_Text;
 
     public GameObject BigWarning_Gameobject;
-    public TextMeshProUGUI BigWarning_Text;
-    public string CallBigWarning_Enter_Function;
+    public TextMeshProUGUI BigWarning_Title;
+    public TextMeshProUGUI BigWarning_Note;
+    public TextMeshProUGUI BigWarning_Timer;
+    public string[] BigWarning_Note_String;
 
     public GameObject SmallWarning_Gameobject;
     public TextMeshProUGUI SmallWarning_Text;
@@ -34,40 +49,80 @@ public class GameController : MonoBehaviour
     {
         Slot.SetActive(false);
         _GameState = (GameState)0;
+
+        BigWarning_Gameobject.SetActive(false);
+        SmallWarning_Gameobject.SetActive(false);
+        TestText.text = Machine_String[count];
+        GameHint_Text.text = GameHint_String[count];
+
+
         //Anchorable_Object_Magenta.GetComponent<Leap.Unity.Interaction.AnchorableBehaviour>().enabled = false; 
     }
 
     void Update()
     {
+        if (count >1) {
+            PlayTime += Time.deltaTime;
+            GameHint_Text.text = PlayTime.ToString("00:00");
+        }
+        if (CanPress == false && PressCount > 0)
+        {
+            PressCount -= Time.deltaTime;
 
+        }
+        else {
+            CanPress = true;
+            PressCount = PressCountWait;
+        }
         switch (_GameState)
         {
+            case GameState.S0:
+                ChangeText(0,0);
+                break;
             case GameState.S1:
-                TestText.text = "按綠色鍵開始執行";
+                ChangeText(0, 1);
                 break;
             case GameState.S2:
-                TestText.text = "裝置管組";
+                ChangeText(1, 2);
                 Slot.SetActive(true);
                 break;
             case GameState.S3:
-                TestText.text = "機器自我測試";
+                ChangeText(0, 3);
                 break;
             case GameState.S4:
-                TestText.text = "連接透式液袋打開管夾";
+                ChangeText(0, 4);
                 break;
             case GameState.S5:
-                TestText.text = "排氣";
+                ChangeText(0, 5);
                 break;
             case GameState.S6:
-                TestText.text = "連接你自己\n檢查病人端管路";
+                ChangeText(0, 6);
                 break;
             case GameState.S7:
-                TestText.text = "確認0週期引流量";
+                ChangeText(0, 7);
                 break;
             case GameState.S8:
-                TestText.text = "0週期引流";
+                ChangeText(0, 8);
+                break;
+            case GameState.S9:
+                ChangeText(0, 9);
+                break;
+            case GameState.S10:
+                ChangeText(0, 10);
+                break;
+            case GameState.S11:
+                ChangeText(0, 11);
+                break;
+            case GameState.S12:
+                ChangeText(0, 12);
                 break;
         }
+    }
+
+    public void ChangeText(int x, int y)
+    {
+        TestText.text = Machine_String[x];
+        GameHint_Text.text = GameHint_String[y];
     }
 
     public void WhileAttached()
@@ -79,9 +134,16 @@ public class GameController : MonoBehaviour
 
     public void Green()
     {
-        Debug.Log("Touch Green");
-        count += 1;
-        _GameState = (GameState)count;
+
+        if (CanPress) {
+            Debug.Log("Touch Green");
+            count += 1;
+            TestText.text = Machine_String[count];
+            GameHint_Text.text = GameHint_String[count];
+            _GameState = (GameState)count;
+            CanPress = false;
+        }
+
     }
 
     public void Red()
@@ -101,17 +163,33 @@ public class GameController : MonoBehaviour
     {
         Debug.Log("Touch Enter");
     }
-    #region Warning
-    public void CallBigWarning(string Text, string function)
+    #region Win/Lose
+    public void Win() {
+        CallBigWarning("Win","");
+        Invoke(nameof(CallBigWarning_Exit), BigWarning_BackMenuTime);
+    }
+
+    public void Lose()
     {
-        BigWarning_Text.text = Text;
-        CallBigWarning_Enter_Function = function;
+        CallBigWarning("Lose", "");
+        Invoke(nameof(CallBigWarning_Exit), BigWarning_BackMenuTime);
+    }
+    #endregion
+
+    #region Warning
+    public void CallBigWarning(string Title_Text, string Note_Text)
+    {
+        GameHint_Gameobject.SetActive(false);
+        GameTimer_Gameobject.SetActive(false);
+        BigWarning_Title.text = Title_Text;
+        BigWarning_Note.text = Note_Text;
+        BigWarning_Timer.text = BigWarning_BackMenuTime+ "s Back Menu...";
         BigWarning_Gameobject.SetActive(true);
     }
 
-    public void CallBigWarning_Enter()
+    public void CallBigWarning_Exit()
     {
-        Invoke(CallBigWarning_Enter_Function, 0f);
+        SceneManager.LoadScene(0);
     }
 
 
