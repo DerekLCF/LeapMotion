@@ -7,6 +7,8 @@ using TMPro;
 public class Test : MonoBehaviour
 {
 
+    public GameObject Anchorable_Object_Magenta;
+
     public void Attached()
     {
         Debug.Log("Attached");
@@ -31,7 +33,7 @@ public class Test : MonoBehaviour
     public void WhileLocked()
     {
         Debug.Log("WhileLocked");
-
+        Anchorable_Object_Magenta.SetActive(false);
     }
 
     public void OPA()
