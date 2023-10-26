@@ -87,34 +87,34 @@ public class GameController : MonoBehaviour
                 Slot.SetActive(true);
                 break;
             case GameState.S3:
-                ChangeText(0, 3);
+                ChangeText(2, 3);
                 break;
             case GameState.S4:
-                ChangeText(0, 4);
+                ChangeText(3, 4);
                 break;
             case GameState.S5:
-                ChangeText(0, 5);
+                ChangeText(3, 5);
                 break;
             case GameState.S6:
-                ChangeText(0, 6);
+                ChangeText(3, 6);
                 break;
             case GameState.S7:
-                ChangeText(0, 7);
+                ChangeText(4, 7);
                 break;
             case GameState.S8:
-                ChangeText(0, 8);
+                ChangeText(5, 8);
                 break;
             case GameState.S9:
-                ChangeText(0, 9);
+                ChangeText(5, 9);
                 break;
             case GameState.S10:
-                ChangeText(0, 10);
+                ChangeText(5, 10);
                 break;
             case GameState.S11:
-                ChangeText(0, 11);
+                ChangeText(6, 11);
                 break;
             case GameState.S12:
-                ChangeText(0, 12);
+                ChangeText(7, 12);
                 break;
         }
     }
