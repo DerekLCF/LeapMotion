@@ -12,7 +12,6 @@ public class AudioManager : MonoBehaviour
 
     public void Awake()
     {
-        //slider.GetComponent<InteractionSlider>().S
         if (Instance == null)
         {
             Instance = this;
