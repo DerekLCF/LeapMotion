@@ -1,8 +1,9 @@
 fileFormatVersion: 2
-guid: 5ef064377159089489bceea666919d0f
-timeCreated: 1493340871
-licenseType: Free
+guid: b2b5e609884e525478b8331c6d3e0ac6
+labels:
+- ObiRope
 DefaultImporter:
+  externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 

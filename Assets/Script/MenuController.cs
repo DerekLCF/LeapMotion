@@ -20,8 +20,22 @@ public class MenuController : MonoBehaviour
         LoadVolume();
 
     }
-    public void Update()
+    public void ToggleRay()
     {
+        Debug.Log("ToggleRay ");
+        if (PlayerPrefs.GetInt("Name") == 1)
+        {
+            Debug.Log("ToggleRay 1");
+            PlayerPrefs.SetInt("Ray", 0);
+            RayManager.Instance.RayOn = false;
+        }
+
+        if (PlayerPrefs.GetInt("Name") == 0)
+        {
+            Debug.Log("ToggleRay 0");
+            PlayerPrefs.SetInt("Ray", 1);
+            RayManager.Instance.RayOn = true;
+        }
 
     }
     public void Volume(float vol)
@@ -33,7 +47,6 @@ public class MenuController : MonoBehaviour
 
     void LoadVolume() {
         float vol = PlayerPrefs.GetFloat("VolumeValue");
-        Debug.Log(vol);
         InteractionSlider.GetComponent<Leap.Unity.Interaction.InteractionSlider>().defaultHorizontalValue = vol;
         VolumeText.text = "Volume:" +(vol *100).ToString("00");
         AudioManager.Instance.SetMusic(vol);
